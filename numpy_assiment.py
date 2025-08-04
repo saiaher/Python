@@ -9,9 +9,9 @@ print(s1)
 
 
 def average(arr, window_size):
-    # Create a window of ones, normalize it by dividing by window size
+    
     window = np.ones(window_size) / window_size
-    # Use numpy's convolve function to compute the moving average
+    
     return np.convolve(arr, window, mode='valid')
 
 
