@@ -1,9 +1,13 @@
-from person import Person
-class Num(Person):
-    def add(self):
-        print(self.a)
-        print(self._b)
-        print(self._Person__c)
+output = []
 
-s1 = Num(1,2,3)
-s1.add()
+for i in range(1, 101):
+    if i % 3 == 0 and i % 5 == 0:
+        output.append("fizzbuzz")
+    elif i % 5 == 0:
+        output.append("fizz")
+    elif i % 3 == 0:
+        output.append("buzz")
+    else:
+        output.append(str(i))
+
+print(output)
