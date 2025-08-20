@@ -1,5 +1,13 @@
-"a","b","c","d","e"
-1,2,3,4,5
-1,2,3,4,5
-1,2,3,4,5
-1,2,3,4,5
+Date,Product,Category,Quantity Sold,Price,Revenue
+2023-01-01,Product A,Electronics,5,200,1000
+2023-01-02,Product B,Clothing,3,50,150
+2023-01-03,Product C,Food,10,30,300
+2023-01-04,Product D,Electronics,2,150,300
+2023-01-05,Product E,Clothing,4,60,240
+2023-01-06,Product F,Food,8,20,160
+2023-01-07,Product G,Electronics,1,500,500
+2023-01-08,Product H,Clothing,6,45,270
+2023-01-09,Product I,Food,15,25,375
+2023-01-10,Product J,Electronics,3,300,900
+
+
