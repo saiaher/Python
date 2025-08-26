@@ -33,10 +33,10 @@ x=[1,1,2,2,3,3,4,4,5,5]
 def remove_duplicates(input_list):
     return list(set(input_list))
 
-# Input: list of integers
+
 input_list = [int(x) for x in input("Enter integers separated by spaces: ").split()]
 
-# Removing duplicates
+
 s1 = remove_duplicates(input_list)
 
 print(s1)
