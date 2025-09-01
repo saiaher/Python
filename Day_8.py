@@ -16,4 +16,4 @@ class Sort:
     
 
 s1=Sort()
-print(s1.murge_sorted_list([1, 3, 5], [2, 4, 6]))
+print(s1.murge_sorted_list([1, 3, 5], [2, 7, 9]) )
