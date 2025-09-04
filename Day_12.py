@@ -11,5 +11,5 @@ class Car:
     def info(self):
         return self.brand,self.model,self.year
 
-s1=Car()
-s1.info("tata","rangerover",2025)
+s1=Car("tata","range_rover",2025)
+print(s1.info())
