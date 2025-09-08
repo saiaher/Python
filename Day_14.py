@@ -1,13 +1,19 @@
-# Given a string s, find the longest substring of s that is a palindrome.
-# string :- forgeeksskeegfor
+class String:
+    def longest_substring(self, s):
+       
+        longest = ""
+        
+        for i in range(len(s)):
+            for j in range(i + 1, len(s) + 1):
+                substring = s[i:j]
+               
+                if substring == substring[::-1]:
+                    
+                    if len(substring) > len(longest):
+                        longest = substring
+        
+        return longest
+           
 
-class string:
-    
-    def longest_substring(self,str):
-        for i in str:
-            if str[i]==str[i+1][::-1]:
-                return i
-s1=string()
-print(s1.longest_substring("forgeeksskeegfor"))            
-
-                
+s1 = String()
+print(s1.longest_substring("forgeeksskeegfor"))
