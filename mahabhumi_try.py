@@ -196,13 +196,11 @@ try:
     original_img = Image.open(io.BytesIO(response.content))
     save_captcha_image_for_analysis(original_img, "original_captcha")
 
-    # Solve the CAPTCHA with advanced techniques
     captcha_text = solve_captcha_with_retry(driver, img_url)
 
     if captcha_text and len(captcha_text) >= 4:
         print(f"Final CAPTCHA result: {captcha_text}")
 
-        # Fill the CAPTCHA input field
         captcha_input = wait.until(EC.element_to_be_clickable((By.ID, "CaptchaText")))
         captcha_input.clear()
         
@@ -220,7 +218,7 @@ try:
         print("Failed to detect valid CAPTCHA after multiple attempts.")
         print("Consider manual intervention or using a CAPTCHA solving service")
 
-    time.sleep(5)
+    time.sleep(10)
 
 finally:
     driver.quit()
