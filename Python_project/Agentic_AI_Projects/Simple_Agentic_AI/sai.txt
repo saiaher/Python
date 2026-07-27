@@ -1,0 +1,27 @@
+Name: Sai Aher
+
+About Me:
+Hello! My name is Sai Aher.
+
+I am a B.Tech Computer Science and Engineering (Data Science) student.
+
+I am learning:
+- Python
+- Artificial Intelligence
+- Machine Learning
+- Data Science
+- Agentic AI
+
+My Goal:
+To become an AI Engineer and build intelligent AI agents that solve real-world problems.
+
+Skills:
+- Python
+- SQL
+- Git & GitHub
+- Flask
+- Streamlit
+- Groq API
+- Prompt Engineering
+
+Thank you for reading this file.
