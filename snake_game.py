@@ -2,22 +2,22 @@ import pygame
 import time
 import random
 
-# Initialize pygame
+
 pygame.init()
 
-# Set display size
+
 width, height = 600, 400
 win = pygame.display.set_mode((width, height))
 pygame.display.set_caption("Snake Game")
 
-# Colorsk
+
 white = (255, 255, 255)
 black = (0, 0, 0)
 red = (213, 50, 80)
 green = (0, 255, 0)
 blue = (50, 153, 213)
 
-# Snake settings
+
 snake_block = 10
 snake_speed = 15
 clock = pygame.time.Clock()
@@ -90,7 +90,7 @@ def game_loop():
                     y_change = snake_block
                     x_change = 0
 
-        # Boundary check
+        
         if x >= width or x < 0 or y >= height or y < 0:
             game_close = True
 
@@ -103,7 +103,7 @@ def game_loop():
         if len(snake_list) > length_of_snake:
             del snake_list[0]
 
-        # Check self collision
+       
         for segment in snake_list[:-1]:
             if segment == snake_head:
                 game_close = True
