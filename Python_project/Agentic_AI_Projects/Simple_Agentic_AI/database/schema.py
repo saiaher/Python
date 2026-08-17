@@ -18,7 +18,7 @@ def create_tables():
     conn.commit()
     conn.close()
 
-    # print("Messages table created successfully!")
+    print("Messages table created successfully!")
 
 
 create_tables()
